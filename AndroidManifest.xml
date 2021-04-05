@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.bme.aut.android.memorygame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MemoryGame"
+        android:name=".toplist.ResultApplication">
+
+        <activity android:name=".toplist.ToplistActivity"/>
+
+        <activity android:name=".gamelayout.Easy"
+            android:screenOrientation="portrait" />
+        <activity android:name=".gamelayout.Hard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".gamelayout.Medium"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

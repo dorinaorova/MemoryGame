@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="memory">Memory</string>
+    <string name="btn_toplist">Toplist</string>
+    <string name="btn_start">START</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_easy">Easy - 3x4</string>
+    <string name="btn_medium">Medium - 4x5</string>
+    <string name="btn_hard">Hard - 5x6</string>
+    <string name="tv_settings">Settings</string>
+    <string name="itemEasy">Easy</string>
+    <string name="itemMedium">Medium</string>
+    <string name="itemHard">Hard</string>
+</resources>
